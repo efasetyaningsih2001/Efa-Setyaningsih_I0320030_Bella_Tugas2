@@ -30,15 +30,14 @@ print("Ukuran sepatu saya adalah", Ukuran,'cm')
 TanggalLahir = 29
 BulanLahir = 9
 TahunLahir = 2001
-TanggalSekarang = 11
+TanggalSekarang = 12
 BulanSekarang = 3
 TahunSekarang =2021
 
 Umurdalamhari = (TanggalSekarang-TanggalLahir) + ((BulanSekarang-BulanLahir)*30) + ((TahunSekarang-TahunLahir)*365)
-Hari = int(((Umurdalamhari)%365)/30)
 Bulan = int(((Umurdalamhari)%365)/30)
 Tahun = int((Umurdalamhari)/365)
-print("Umur saya adalah", Tahun, "tahun,", Bulan, "bulan,", Hari, "hari.")
+print("Umur saya adalah", Tahun, "tahun,", Bulan, "bulan.")
 
 
 
